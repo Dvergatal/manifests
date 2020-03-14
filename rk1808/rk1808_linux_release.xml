@@ -7,7 +7,7 @@
   <project name="RKNPUTools" path="external/RKNPUTools" revision="baf00aedcb9005801945d3cd986020dfdab941e1" upstream="rk1808/firefly"/>
   <project name="u-boot" path="u-boot" revision="8bb5455a0de7b1340d924d5b5c1d7bc85e55bb69" upstream="rk1808/firefly"/>
   <project name="dl" path="buildroot/dl" revision="8ff89187627615be855a76f9a35673860810eb2e" upstream="rk1808/firefly"/>
-  <project name="device-custom" path="device/rockchip" revision="e1e625d4a32124a3a480960753d61f982c4e91aa" upstream="rk1808/firefly">
+  <project name="device-custom" path="device/rockchip" revision="fa61eb3d81673047d730ed1ae92dc12a6b582422" upstream="rk1808/firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -37,14 +37,14 @@
   <project name="gstreamer-rockchip" path="external/gstreamer-rockchip" revision="c927a1d1d7cf4e6a0becbbc1a2b7b593b0c07396" upstream="master"/>
   <project name="linux-rga" path="external/linux-rga" revision="72e7764a9fe358e6ad50eb1b21176cc95802c7fb" upstream="master"/>
   <project name="recovery" path="external/recovery" revision="67abed960168d0d3c8f74bd9fbbe40a7dc77b005" upstream="develop"/>
-  <project name="tools" path="tools" revision="7c29b9ca8526449c6b96e3775b8e12741d50badb" upstream="rk1808/firefly">
+  <project name="tools" path="tools" revision="8d7fde280361705bc18071e087ce23e0b38f16a7" upstream="rk1808/firefly">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk1808-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk1808-mkupdate.bat"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk1808-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk1808-package-file"/>
   </project>
-  <project name="kernel" path="kernel" revision="1c9306ebf15fe87ddadc01cce0f3a3b59a22e64b" upstream="rk1808/firefly"/>
+  <project name="kernel" path="kernel" revision="fdf87f5e17b43d6171f75794c68086fdce3f1c36" upstream="rk1808/firefly"/>
   <project name="mpp" path="external/mpp" revision="7c26b23bac7737d62631077748bf19bf78bad9e6" upstream="rk1808/firefly"/>
   <project name="gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rockx" path="external/rockx" revision="d0af63ebdbc1f8d496a6ba823bb8bbb382fd6316" upstream="rk1808/firefly"/>
