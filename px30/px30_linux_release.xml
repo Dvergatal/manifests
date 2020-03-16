@@ -39,7 +39,7 @@
   <project name="recovery" path="external/recovery" revision="d8d2681b60e021686d9542d8ec4625f2d2c2e426" upstream="px30/firefly"/>
   <project name="rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="px30/firefly"/>
   <project name="rk_tee_user" path="external/security/rk_tee_user" revision="51b312b55a57aeb81be64fe10fb6055b222b84e0" upstream="px30/firefly"/>
-  <project name="rkbin" revision="cae50f5fccc78475ff581c639e4ecd11b9643ce9" upstream="px30/firefly"/>
+  <project name="rkbin" revision="1a1b807aa7164a3f00bbbccb72ac267c92c7a96f" upstream="px30/firefly"/>
   <project name="rkscript" path="external/rkscript" revision="625038f089e1fe56a437fe7d2318ab57191d9b5a" upstream="px30/firefly"/>
   <project name="rkupdate" path="external/rkupdate" revision="000bc14833c2fa12ba45e9f87e0775977485b4f1" upstream="px30/firefly"/>
   <project name="rkwifibt" path="external/rkwifibt" revision="5d31b1a8c441b0b13952abaa2558c2d783c2cd10" upstream="px30/firefly"/>
@@ -51,6 +51,6 @@
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3399-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3399-mkupdate.bat"/>
   </project>
-  <project name="u-boot" revision="12bc9cd8e1c8f306b494aca0859d4ab9cfd98216" upstream="px30/firefly"/>
+  <project name="u-boot" revision="bbc31d981ea7eacdf1b852612f717232d883043f" upstream="px30/firefly"/>
   <project name="video" path="app/video" revision="b52211fe8d0d91b2210cfab757885277cae1211c" upstream="px30/firefly"/>
 </manifest>
