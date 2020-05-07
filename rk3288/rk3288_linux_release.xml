@@ -15,7 +15,7 @@
   <project name="demo" path="app/demo" revision="9c70bb34443f8a8c7b5987baf4b47dbb29d0a0c2" upstream="master"/>
   <project name="camera_engine_cifisp" path="external/camera_engine_cifisp" revision="1ca397689e2803445326dcddea49fa6b0757a416" upstream="master"/>
   <project name="camera_engine_rkisp" path="external/camera_engine_rkisp" revision="fe8e1563c787d607b6bf4dea0d5f32a8662d9445" upstream="master"/>
-  <project name="device-custom" path="device/rockchip" revision="2a8bb55a38dc3eb0daad87c295a29931cbe1fc21" upstream="master">
+  <project name="device-custom" path="device/rockchip" revision="fc5b3c436f29a1b8c9ab69f3464eef95b7f1cb1f" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>

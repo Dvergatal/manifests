@@ -17,7 +17,7 @@
   <project name="camera_engine_cifisp" path="external/camera_engine_cifisp" revision="dff8b97d58507c9fd74082880ae4ab068ba6b88d" upstream="rk3399pro/firefly"/>
   <project name="camera_engine_rkisp" path="external/camera_engine_rkisp" revision="041edb59255a643315ca5d229dee2724678984b6" upstream="rk3399pro/firefly"/>
   <project name="demo" path="app/demo" revision="7b0adedacfe6c5d4100a24ca2eb4a7972b72fa94" upstream="rk3399pro/firefly"/>
-  <project name="device-custom" path="device/rockchip" revision="4d33d7a5805153688deb807c79f004b81daf6d74" upstream="master">
+  <project name="device-custom" path="device/rockchip" revision="fc5b3c436f29a1b8c9ab69f3464eef95b7f1cb1f" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>

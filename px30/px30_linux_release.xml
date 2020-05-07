@@ -15,7 +15,7 @@
   </project>
   <project name="camera" path="app/camera" revision="5cdf344c7343f0226bce4acbd464fe9cc55a560f" upstream="px30/firefly"/>
   <project name="camera_engine_rkisp" path="external/camera_engine_rkisp" revision="fe8e1563c787d607b6bf4dea0d5f32a8662d9445" upstream="px30/firefly"/>
-  <project name="device-custom" path="device/rockchip" revision="16e6b5f7902803efe4532286022c5de503e5034a" upstream="px30/firefly">
+  <project name="device-custom" path="device/rockchip" revision="8b26d6d8a5e094ede790d63c7311a14b63dba444" upstream="px30/firefly">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
