@@ -22,13 +22,13 @@
  </project>
   <project name="distro" revision="94510a37ddb1a748f2e23a9e7b8cab5fb892295c" upstream="px30/firefly"/>
   <project name="dl" path="buildroot/dl" revision="7c6a693996781d9abeec1487472d4222b1821a80" upstream="px30/firefly"/>
-  <project name="docs" revision="ce105488625003a45ca23f33eabb5e0e9a236da7" upstream="px30/firefly"/>
+  <project name="docs" revision="7b4988c45cf3154c8ccb49fde87d491413f98aa5" upstream="px30/firefly"/>
   <project name="ffmpeg" path="external/ffmpeg" revision="589de66a0b50c43b93f511361275d9ff86da21dd" upstream="px30/firefly"/>
   <project name="gallery" path="app/gallery" revision="67850ebbbc400b0a46968fb99bdd60c86358cc49" upstream="px30/firefly"/>
   <project name="gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="px30/firefly"/>
   <project name="gst-plugins-rockchip" path="external/gst-plugins-rockchip" revision="c5934d1b83427a476fdc3d909de4dad9109951e8" upstream="px30/firefly"/>
   <project name="gstreamer-rockchip" path="external/gstreamer-rockchip" revision="c766879e0b750233b197a2dd495e562d64498244" upstream="px30/firefly"/>
-  <project name="kernel" revision="db37d38f57523ad23edabd5da81652e70425da81" upstream="px30/firefly"/>
+  <project name="kernel" revision="83f2f51befee71f2b873ff50cf47119b8a549dd2" upstream="px30/firefly"/>
   <project name="libdrm-rockchip" path="external/libdrm-rockchip" revision="ea6c1f85b8691f0c2ecda16fb9919eeec3dafd48" upstream="px30/firefly"/>
   <project name="libmali" path="external/libmali" revision="b81d886f3e3fba47040565ec2fcb44b765f4a3b0" upstream="px30/firefly"/>
   <project name="linux-rga" path="external/linux-rga" revision="d4155b84a6a285c3f25f32143eae66530dccf351" upstream="px30/firefly"/>
@@ -39,7 +39,7 @@
   <project name="recovery" path="external/recovery" revision="d8d2681b60e021686d9542d8ec4625f2d2c2e426" upstream="px30/firefly"/>
   <project name="rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="px30/firefly"/>
   <project name="rk_tee_user" path="external/security/rk_tee_user" revision="51b312b55a57aeb81be64fe10fb6055b222b84e0" upstream="px30/firefly"/>
-  <project name="rkbin" revision="1a1b807aa7164a3f00bbbccb72ac267c92c7a96f" upstream="px30/firefly"/>
+  <project name="rkbin" revision="9d6fcd455348013c3350c78e398edee822ea58c9" upstream="px30/firefly"/>
   <project name="rkscript" path="external/rkscript" revision="625038f089e1fe56a437fe7d2318ab57191d9b5a" upstream="px30/firefly"/>
   <project name="rkupdate" path="external/rkupdate" revision="000bc14833c2fa12ba45e9f87e0775977485b4f1" upstream="px30/firefly"/>
   <project name="rkwifibt" path="external/rkwifibt" revision="5d31b1a8c441b0b13952abaa2558c2d783c2cd10" upstream="px30/firefly"/>
@@ -51,6 +51,6 @@
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3399-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3399-mkupdate.bat"/>
   </project>
-  <project name="u-boot" revision="bbc31d981ea7eacdf1b852612f717232d883043f" upstream="px30/firefly"/>
+  <project name="u-boot" revision="0c151405ab2a70d59ca302427cd0326af53248d4" upstream="px30/firefly"/>
   <project name="video" path="app/video" revision="b52211fe8d0d91b2210cfab757885277cae1211c" upstream="px30/firefly"/>
 </manifest>

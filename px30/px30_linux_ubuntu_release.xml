@@ -10,12 +10,12 @@
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
  </project>
   <project name="gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="px30/firefly"/>
-  <project name="kernel" revision="db37d38f57523ad23edabd5da81652e70425da81" upstream="px30/firefly"/>
-  <project name="rkbin" revision="1a1b807aa7164a3f00bbbccb72ac267c92c7a96f" upstream="px30/firefly"/>
+  <project name="kernel" revision="83f2f51befee71f2b873ff50cf47119b8a549dd2" upstream="px30/firefly"/>
+  <project name="rkbin" revision="9d6fcd455348013c3350c78e398edee822ea58c9" upstream="px30/firefly"/>
   <project name="tools" revision="e48767f84cb6c940d7f6cbd27368cb52709da30c" upstream="px30/firefly">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3399-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3399-mkupdate.bat"/>
   </project>
-  <project name="u-boot" revision="bbc31d981ea7eacdf1b852612f717232d883043f" upstream="px30/firefly"/>
+  <project name="u-boot" revision="0c151405ab2a70d59ca302427cd0326af53248d4" upstream="px30/firefly"/>
 </manifest>
