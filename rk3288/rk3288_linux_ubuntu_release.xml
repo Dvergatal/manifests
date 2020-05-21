@@ -10,7 +10,7 @@
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
 </project>
   <project name="gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project name="kernel" revision="9f933a098512041f4105e112b81e88b0ff18b0bf" upstream="rk3288/firefly"/>
+  <project name="kernel" revision="048826247850a851270875338a8e7459d612cc3b" upstream="rk3288/firefly"/>
   <project name="rkbin" revision="c69eb331ccba1cc8679c7469f9d32bc0c14aafff" upstream="rk3288/firefly"/>
   <project name="tools" revision="898158c75f25225b0ad30e59d5a4fe920dc30448" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
