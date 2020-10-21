@@ -58,5 +58,7 @@
   <remote fetch="https://github.com/Dvergatal/" name="my-firefly"/>
 
   <project remote="my-firefly" name="kernel" revision="adbb4461a5a09fd4862c1663953fb50f554c1e66" upstream="rk3399/firefly"/>
+  <project remote="my-firefly" name="optee_os" revision="54fbfa981818eeb7e45675d4cfa0a79494904e8f" upstream="rk3399/firefly"/>
+
 
 </manifest>
