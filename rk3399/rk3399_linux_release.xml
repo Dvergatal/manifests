@@ -56,7 +56,7 @@
 
   <project remote="my-firefly" name="kernel" revision="adbb4461a5a09fd4862c1663953fb50f554c1e66" upstream="rk3399/firefly"/>
   <project remote="my-firefly" name="optee_os" revision="7745c4159ec750d4da8c214ca21459b4b411ec6a" upstream="sks-to-pkcs11"/>
-  <project remote="my-firefly" name="buildroot" revision="1ada4aadbd0dfb3ebb8c7f111899e4e729f55b0a" upstream="master">
+  <project remote="my-firefly" name="buildroot" revision="12c4abc095620fd015816179e7463075345425a2" upstream="master">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
