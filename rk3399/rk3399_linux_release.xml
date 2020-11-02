@@ -7,10 +7,7 @@
   <project name="QLauncher" path="app/QLauncher" revision="dbd9b7562253c277e5010e1df0ed2dcc4fca4a21" upstream="master"/>
   <project name="alsa-config" path="external/alsa-config" revision="5a80dbcff93b5db40310910835649277f60048c4" upstream="master"/>
   <project name="audioservice" path="external/audioservice" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
-  <project name="buildroot" revision="52df53edc87a89556bff94ec0eca16f7a0983c4e" upstream="master">
-    <linkfile dest="Makefile" src="build/Makefile"/>
-    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
-  </project>
+
   <project name="camera" path="app/camera" revision="68c892e8affb6d70b36fd86f2da535f53415a61c" upstream="master"/>
   <project name="demo" path="app/demo" revision="9c70bb34443f8a8c7b5987baf4b47dbb29d0a0c2" upstream="master"/>
   <project name="camera_engine_cifisp" path="external/camera_engine_cifisp" revision="1ca397689e2803445326dcddea49fa6b0757a416" upstream="master"/>
@@ -59,6 +56,10 @@
 
   <project remote="my-firefly" name="kernel" revision="adbb4461a5a09fd4862c1663953fb50f554c1e66" upstream="rk3399/firefly"/>
   <project remote="my-firefly" name="optee_os" revision="7745c4159ec750d4da8c214ca21459b4b411ec6a" upstream="sks-to-pkcs11"/>
+  <project remote="my-firefly" name="buildroot" revision="1ada4aadbd0dfb3ebb8c7f111899e4e729f55b0a" upstream="master">
+    <linkfile dest="Makefile" src="build/Makefile"/>
+    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+  </project>
 
 
 </manifest>
