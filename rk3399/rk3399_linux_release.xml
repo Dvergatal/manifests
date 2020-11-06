@@ -49,7 +49,6 @@
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3399-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3399-mkupdate.bat"/>
   </project>
-  <project name="u-boot" revision="e9a3933588973121a4d10b8b3040cbc62b704538" upstream="rk3399/firefly"/>
   <project name="video" path="app/video" revision="b52211fe8d0d91b2210cfab757885277cae1211c" upstream="master"/>
 
   <remote fetch="https://github.com/Dvergatal/" name="my-firefly"/>
@@ -60,6 +59,7 @@
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
+  <project remote="my-firefly" name="u-boot" revision="628482decf1fabf54ed45563baef195aa609e11f" upstream="rk3399/firefly"/>
 
 
 </manifest>
