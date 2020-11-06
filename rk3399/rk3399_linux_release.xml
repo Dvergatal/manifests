@@ -59,7 +59,7 @@
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
-  <project remote="my-firefly" name="u-boot" revision="628482decf1fabf54ed45563baef195aa609e11f" upstream="rk3399/firefly"/>
+  <project remote="my-firefly" name="u-boot" revision="226c3742ed747785f18df9ec23e00ce40e38383f" upstream="rk3399/firefly"/>
 
 
 </manifest>
