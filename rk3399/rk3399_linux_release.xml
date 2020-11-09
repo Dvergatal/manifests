@@ -53,7 +53,7 @@
 
   <remote fetch="https://github.com/Dvergatal/" name="my-firefly"/>
 
-  <project remote="my-firefly" name="kernel" revision="adbb4461a5a09fd4862c1663953fb50f554c1e66" upstream="rk3399/firefly"/>
+  <project remote="my-firefly" name="kernel" revision="65ee44d9070edce7348360e447b69998d63e8cf2" upstream="rk3399/firefly"/>
   <project remote="my-firefly" name="optee_os" revision="7745c4159ec750d4da8c214ca21459b4b411ec6a" upstream="sks-to-pkcs11"/>
   <project remote="my-firefly" name="buildroot" revision="ed9741761dfad0570125e3ebe5b151aa3e18ac91" upstream="master">
     <linkfile dest="Makefile" src="build/Makefile"/>
